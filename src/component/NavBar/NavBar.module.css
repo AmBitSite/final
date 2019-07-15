@@ -1,0 +1,25 @@
+.nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item {
+    color: #fff;
+    font-weight: 400;
+    padding: 0 10px;
+    font-size: 1.4em;
+    text-decoration-line: none;
+}
+
+.item:hover{
+    color:rgb(196, 193, 49);
+    text-decoration-line: none
+}
+.active{
+    font-weight: 900;
+    color:rgb(196, 193, 49);
+    text-decoration-line: none;
+}

@@ -1,0 +1,21 @@
+.media{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 75vw;
+    color: #fff;
+    
+}
+.__wrapper{
+    
+    height: 60vh;
+}
+.welcome{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.header{
+    padding: 50px;
+    margin:auto 0;
+    cursor: default;
+}

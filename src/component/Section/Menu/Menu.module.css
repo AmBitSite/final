@@ -1,0 +1,23 @@
+.menu{
+    width: 25%;
+    min-width: 300px;
+    font-size: 20px;
+    border:1px solid #000;
+    height: 99.7%;
+    overflow-x: auto;
+    color:#fff;
+}
+.menuList{
+    margin: 0;
+    padding: 0;
+}
+.listItem{
+    cursor: pointer;
+    box-sizing: content-box;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    list-style: none;
+}
+.active{
+    color:rgb(196, 193, 49);
+}

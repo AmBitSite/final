@@ -1,0 +1,14 @@
+.welcomePage{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, #190A05, #870000);
+    justify-content: center;
+    margin: 0 auto;
+    visibility: visible;
+}
+.active{
+    display: none;
+    visibility: hidden;
+}

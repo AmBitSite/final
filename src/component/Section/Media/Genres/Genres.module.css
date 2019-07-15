@@ -1,0 +1,36 @@
+.genres{
+    height: 60vh;
+    border: 1px solid #000;
+    border-right: none;
+}
+.blockButton{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000;
+    width: 300px;
+    margin: 20px;
+    font-size: 2em;
+    letter-spacing: 5px;
+    outline: none;
+    color:#fff
+}
+.button:hover{
+    box-sizing: content-box;
+    transition: width .5s;
+    width: 350px;
+    opacity: .8;
+    border:rgb(196, 193, 49) solid;
+    color:rgb(196, 193, 49);
+}
+.buttonActive{
+    color:rgb(196, 193, 49);
+    border:red solid;
+    width: 350px;
+}

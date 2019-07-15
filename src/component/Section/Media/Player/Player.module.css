@@ -1,0 +1,88 @@
+.player {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border: 1px solid #000;
+    border-right: none;
+    flex-wrap: wrap;
+}
+.blockButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    min-width: 320px;
+}
+.button {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    outline: none;
+    color: #000;
+}
+.buttonPrev {
+    color: rgb(255, 0, 0);
+}
+.buttonPlay {
+    color: rgb(255, 0, 0);
+}
+.buttonNext {
+    color: rgb(255, 0, 0);
+}
+.blockSound {
+    width: 50%;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 420px;
+}
+.soundWall {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.soundWallActive {
+    background: linear-gradient(to right, #fff 0%, rgb(145, 0, 0) 100%);
+    width: 0%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.soundTime {
+    font-size: 3em;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+.repeat {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.repeatType {
+    display: inline-block;
+    color: #c4c131;
+    cursor: pointer;
+    width: 100px;
+}
+.soundValume {
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    font-size: 2em;
+}
+.valume {
+    width: 170px !important;
+    display: flex;
+    margin-right: 55px;
+    margin-top: 13px
+}
+.randomTrack{
+    display: flex;
+}
